@@ -1,0 +1,36 @@
+
+@media (min-width: 1440px) {
+  .reviews-container {
+    grid-template-areas: 
+      "r-1 r-1 r-2 r-5"
+      "r-3 r-4 r-4 r-5";
+  }
+  
+  .r-1 {
+    grid-area: r-1;
+  }
+  
+  .r-2 {
+    grid-area: r-2;
+  }
+  
+  .r-3 {
+    grid-area: r-3;
+  }
+  
+  .r-4 {
+    grid-area: r-4;
+  }
+  
+  .r-5 {
+    grid-area: r-5;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+}
